@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Devin Kuang&#39;s Blog</title>
   
-  <subtitle>Who will eventually stun the world will be long-lasting and silent. Who will ignite the lightning will last for a long time like a cloud drift.</subtitle>
+  <subtitle>谁终将声震人间, 必长久深自缄默; 谁终将点燃闪电, 必长久如云漂泊.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-29T07:37:19.046Z</updated>
+  <updated>2018-10-31T13:10:11.214Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,9 +17,52 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>中文词向量总结</title>
+    <link href="http://yoursite.com/uncategorized/%E4%B8%AD%E6%96%87%E8%AF%8D%E5%90%91%E9%87%8F%E6%80%BB%E7%BB%93"/>
+    <id>http://yoursite.com/uncategorized/中文词向量总结</id>
+    <published>2018-10-31T13:06:54.000Z</published>
+    <updated>2018-10-31T13:10:11.214Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;中文词向量总结&quot;&gt;&lt;a href=&quot;#中文词向量总结&quot; class=&quot;headerlink&quot; title=&quot;中文词向量总结&quot;&gt;&lt;/a&gt;中文词向量总结&lt;/h1&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>scala</title>
+    <link href="http://yoursite.com/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/scala"/>
+    <id>http://yoursite.com/编程语言/scala</id>
+    <published>2018-10-31T12:46:31.000Z</published>
+    <updated>2018-10-31T13:36:26.826Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Scala教程&quot;&gt;&lt;a href=&quot;#Scala教程&quot; class=&quot;headerlink&quot; title=&quot;Scala教程&quot;&gt;&lt;/a&gt;Scala教程&lt;/h1&gt;&lt;h2 id=&quot;Scala简介&quot;&gt;&lt;a href=&quot;#Scala简介&quot; class=&quot;headerlink&quot; title=&quot;Scala简介&quot;&gt;&lt;/a&gt;Scala简介&lt;/h2&gt;&lt;p&gt;一门多范式的编程语言（什么叫多范式？可以参考&lt;a href=&quot;https://blog.csdn.net/hnyzyty/article/details/49887259&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CSDN多范式编程语言&lt;/a&gt; ，综合考虑了面向对象、函数式、泛型编程（例如C++中的模板）），Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库，Scala具有如下特性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;面向对象特性&lt;/li&gt;
+&lt;li&gt;函数式编程&lt;/li&gt;
+&lt;li&gt;静态类型&lt;/li&gt;
+&lt;li&gt;扩展性&lt;/li&gt;
+&lt;li&gt;并发性&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="编程语言" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="scala" scheme="http://yoursite.com/tags/scala/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/10/27/hello-world/"/>
-    <id>http://yoursite.com/2018/10/27/hello-world/</id>
+    <link href="http://yoursite.com/uncategorized/hello-world"/>
+    <id>http://yoursite.com/uncategorized/hello-world</id>
     <published>2018-10-27T13:47:49.459Z</published>
     <updated>2018-10-29T07:37:19.046Z</updated>
     
