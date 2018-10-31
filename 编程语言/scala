@@ -57,17 +57,35 @@
   
 
   
+    
+      
+    
 
-  
-
+    
   
 
   
 
   
     
+      
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -98,18 +116,18 @@
 
 
 
-<meta name="description" content="Scala教程Scala简介一门多范式的编程语言（什么叫多范式？可以参考CSDN多范式编程语言 ，综合考虑了面向对象、函数式、泛型编程（例如C++中的模板）），Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库，Scala具有如下特性：  面向对象特性 函数式编程 静态类型 扩展性 并发性">
+<meta name="description" content="Scala教程Scala简介一门多范式的编程语言（什么叫多范式？可以参考CSDN多范式编程语言 ，综合考虑了面向对象、函数式、泛型编程（例如C++中的模板）），Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库，Scala具有如下特性：">
 <meta name="keywords" content="scala">
 <meta property="og:type" content="article">
 <meta property="og:title" content="scala">
 <meta property="og:url" content="http://yoursite.com/编程语言/scala">
 <meta property="og:site_name" content="Devin Kuang&#39;s Blog">
-<meta property="og:description" content="Scala教程Scala简介一门多范式的编程语言（什么叫多范式？可以参考CSDN多范式编程语言 ，综合考虑了面向对象、函数式、泛型编程（例如C++中的模板）），Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库，Scala具有如下特性：  面向对象特性 函数式编程 静态类型 扩展性 并发性">
+<meta property="og:description" content="Scala教程Scala简介一门多范式的编程语言（什么叫多范式？可以参考CSDN多范式编程语言 ，综合考虑了面向对象、函数式、泛型编程（例如C++中的模板）），Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库，Scala具有如下特性：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-31T13:36:26.826Z">
+<meta property="og:updated_time" content="2018-10-31T16:29:50.233Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="scala">
-<meta name="twitter:description" content="Scala教程Scala简介一门多范式的编程语言（什么叫多范式？可以参考CSDN多范式编程语言 ，综合考虑了面向对象、函数式、泛型编程（例如C++中的模板）），Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库，Scala具有如下特性：  面向对象特性 函数式编程 静态类型 扩展性 并发性">
+<meta name="twitter:description" content="Scala教程Scala简介一门多范式的编程语言（什么叫多范式？可以参考CSDN多范式编程语言 ，综合考虑了面向对象、函数式、泛型编程（例如C++中的模板）），Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库，Scala具有如下特性：">
 
 
 
@@ -150,6 +168,16 @@
 
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?c9eac00a42028265df4e527542204520";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -398,9 +426,51 @@
 
           
           
+             <span id="/编程语言/scala" class="leancloud_visitors" data-flag-title="scala">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
 
           
 
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计</span>
+                
+                <span title="字数统计">
+                  7,364 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长</span>
+                
+                <span title="阅读时长">
+                  30 分钟
+                </span>
+              
+            </div>
           
 
           
@@ -419,6 +489,7 @@
 
       
         <h1 id="Scala教程"><a href="#Scala教程" class="headerlink" title="Scala教程"></a>Scala教程</h1><h2 id="Scala简介"><a href="#Scala简介" class="headerlink" title="Scala简介"></a>Scala简介</h2><p>一门多范式的编程语言（什么叫多范式？可以参考<a href="https://blog.csdn.net/hnyzyty/article/details/49887259" target="_blank" rel="noopener">CSDN多范式编程语言</a> ，综合考虑了面向对象、函数式、泛型编程（例如C++中的模板）），Scala 运行在Java虚拟机上，并兼容现有的Java程序。Scala 源代码被编译成Java字节码，所以它可以运行于JVM之上，并可以调用现有的Java类库，Scala具有如下特性：</p>
+<a id="more"></a>
 <ul>
 <li>面向对象特性</li>
 <li>函数式编程</li>
@@ -426,7 +497,6 @@
 <li>扩展性</li>
 <li>并发性</li>
 </ul>
-<a id="more"></a>
 <h2 id="Scala安装"><a href="#Scala安装" class="headerlink" title="Scala安装"></a>Scala安装</h2><p>scala是基于java的，所以需要安装jdk1.5以上版本的。然后安装scala,IDE使用idea，注意配置环境变量（path和classpath）</p>
 <h2 id="Scala基础语法"><a href="#Scala基础语法" class="headerlink" title="Scala基础语法"></a>Scala基础语法</h2><p>Scala和java很相似，最大的区别是：Scala 语句末尾的分号 ; 是可选的（python是以缩进取代分号）。与java类似，scala也有类，对象，方法，实例变量的概念，但是与java有点不一样（具体难以用语言描述），类是对象的抽象，而对象是类的具体实例，<strong>字段 -</strong> 每个对象都有它唯一的实例变量集合，即字段。对象的属性通过给字段赋值来创建。（如何理解字段？）</p>
 <ul>
@@ -904,7 +974,7 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="devinkuang@qq.com" target="_blank" title="E-mail">
+                <a href="mailto:devinkuang@qq.com" target="_blank" title="E-mail">
                   
                     <i class="fa fa-fw fa-globe"></i>
                   
@@ -917,10 +987,21 @@
               <span class="links-of-author-item">
                 <a href="https://www.zhihu.com/people/kuang-zong-qiang/activities" target="_blank" title="知乎">
                   
-                    <i class="fa fa-fw fa-zhihu"></i>
+                    <i class="fa fa-fw fa-cloud"></i>
                   
                     
                       知乎
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.douban.com/people/devinkuang" target="_blank" title="豆瓣">
+                  
+                    <i class="fa fa-fw fa-leaf"></i>
+                  
+                    
+                      豆瓣
                     
                 </a>
               </span>
@@ -932,6 +1013,24 @@
         
 
         
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              推荐博客
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://tech.meituan.com/" title="美团点评技术团队" target="_blank">美团点评技术团队</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.52nlp.cn/" title="52nlp" target="_blank">52nlp</a>
+                </li>
+              
+            </ul>
+          </div>
         
 
         
@@ -1026,6 +1125,8 @@
   
 
 
+  
+
 
 
 
@@ -1053,6 +1154,9 @@
 
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
   
@@ -1093,7 +1197,7 @@
   
 
     
-      <script id="dsq-count-scr" src="https://devin.disqus.com/count.js" async></script>
+      <script id="dsq-count-scr" src="https://devinkaung.disqus.com/count.js" async></script>
     
 
     
@@ -1104,7 +1208,7 @@
           this.page.title = 'scala';
         };
         var d = document, s = d.createElement('script');
-        s.src = 'https://devin.disqus.com/embed.js';
+        s.src = 'https://devinkaung.disqus.com/embed.js';
         s.setAttribute('data-timestamp', '' + +new Date());
         (d.head || d.body).appendChild(s);
       </script>
@@ -1456,6 +1560,128 @@
   
 
   
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("ftghrJsPA56FGzQLKGWKgnT2-gzGzoHsz", "OXlXMWkaHeCrP98JWXUuCAAn");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
 
@@ -1468,4 +1694,7 @@
   
 
 </body>
+
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
 </html>

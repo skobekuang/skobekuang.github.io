@@ -57,17 +57,35 @@
   
 
   
+    
+      
+    
 
-  
-
+    
   
 
   
 
   
     
+      
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -133,7 +151,7 @@
 <meta property="og:image" content="http://yoursite.com/中文词向量总结.assets/1534425097746.png">
 <meta property="og:image" content="http://yoursite.com/中文词向量总结.assets/1534425165032.png">
 <meta property="og:image" content="http://yoursite.com/中文词向量总结.assets/1534426032178.png">
-<meta property="og:updated_time" content="2018-08-20T06:31:19.459Z">
+<meta property="og:updated_time" content="2018-10-31T16:26:34.377Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Devin Kuang&#39;s Blog">
 <meta name="twitter:description" content="中文词向量总结词向量基础知识 one-hot编码：假设我们的词库总共有n个词，那我们开一个1*n的高维向量，而每个词都会在某个索引index下取到1，其余位置全部都取值为0.词向量在这种类型的编码中如下图所示：  这种词向量编码方式简单粗暴，我们将每一个词作为一个完全独立的个体来表达。遗憾的是，这种方式下，我们的词向量没办法给我们任何形式的词组相似性权衡（任何两个one-hot向量内积都为0），而">
@@ -178,6 +196,16 @@
 
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?c9eac00a42028265df4e527542204520";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -762,7 +790,7 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="devinkuang@qq.com" target="_blank" title="E-mail">
+                <a href="mailto:devinkuang@qq.com" target="_blank" title="E-mail">
                   
                     <i class="fa fa-fw fa-globe"></i>
                   
@@ -775,10 +803,21 @@
               <span class="links-of-author-item">
                 <a href="https://www.zhihu.com/people/kuang-zong-qiang/activities" target="_blank" title="知乎">
                   
-                    <i class="fa fa-fw fa-zhihu"></i>
+                    <i class="fa fa-fw fa-cloud"></i>
                   
                     
                       知乎
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.douban.com/people/devinkuang" target="_blank" title="豆瓣">
+                  
+                    <i class="fa fa-fw fa-leaf"></i>
+                  
+                    
+                      豆瓣
                     
                 </a>
               </span>
@@ -790,6 +829,24 @@
         
 
         
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              推荐博客
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://tech.meituan.com/" title="美团点评技术团队" target="_blank">美团点评技术团队</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.52nlp.cn/" title="52nlp" target="_blank">52nlp</a>
+                </li>
+              
+            </ul>
+          </div>
         
 
         
@@ -884,6 +941,8 @@
   
 
 
+  
+
 
 
 
@@ -911,6 +970,9 @@
 
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
   
@@ -951,7 +1013,7 @@
   
 
     
-      <script id="dsq-count-scr" src="https://devin.disqus.com/count.js" async></script>
+      <script id="dsq-count-scr" src="https://devinkaung.disqus.com/count.js" async></script>
     
 
     
@@ -962,7 +1024,7 @@
           this.page.title = '';
         };
         var d = document, s = d.createElement('script');
-        s.src = 'https://devin.disqus.com/embed.js';
+        s.src = 'https://devinkaung.disqus.com/embed.js';
         s.setAttribute('data-timestamp', '' + +new Date());
         (d.head || d.body).appendChild(s);
       </script>
@@ -1314,6 +1376,128 @@
   
 
   
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("ftghrJsPA56FGzQLKGWKgnT2-gzGzoHsz", "OXlXMWkaHeCrP98JWXUuCAAn");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
 
@@ -1326,4 +1510,7 @@
   
 
 </body>
+
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
 </html>
