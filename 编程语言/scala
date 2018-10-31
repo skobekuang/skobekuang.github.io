@@ -769,6 +769,14 @@
     
 
     
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/uploads/qrcode_for_wechat.jpg" alt="Devin Kuang wechat" style="width: 200px; max-width: 100%;">
+    <div>欢迎您扫一扫上面的微信公众号，订阅我的博客！</div>
+</div>
+
+      </div>
+    
 
     
       <div>
@@ -781,14 +789,14 @@
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechat-reward-image" alt="Devin Kuang WeChat Pay">
+        <img id="wechat_qr" src="/images/wechat-reward-image.jpg" alt="Devin Kuang WeChat Pay">
         <p>WeChat Pay</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay-reward-image" alt="Devin Kuang Alipay">
+        <img id="alipay_qr" src="/images/alipay-reward-image.jpg" alt="Devin Kuang Alipay">
         <p>Alipay</p>
       </div>
     
